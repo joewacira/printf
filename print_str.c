@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen - finds the lenght of a string.
+ * _strlen - finds lenght of string.
  * @s: string
- * Return: integer.
+ * Return: integer(int)
  */
 
 int _strlen(char *s)
@@ -17,9 +17,9 @@ int _strlen(char *s)
 }
 
 /**
- * _strlenc - finds length of a string but for constant characters
+ * _strlenc - finds the length of string but fo constant chars
  * @s: string
- * Return: integer
+ * Return: integer(int)
  */
 
 int _strlenc(const char *s)
@@ -30,4 +30,3 @@ int _strlenc(const char *s)
 		;
 	return (c);
 }
-
